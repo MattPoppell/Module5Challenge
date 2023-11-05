@@ -11,7 +11,11 @@ Upon the page loading, the user is presented with schedule time-blocks with each
 
 ## Live Link
 
+https://mattpoppell.github.io/fictional-dollop/
+
 ## Screenshot
+
+<img width="1504" alt="Screenshot 2023-11-05 at 8 40 36 AM" src="https://github.com/MattPoppell/fictional-dollop/assets/142950050/c31818b4-bf16-42e5-9fb1-006ff857dac9">
 
 
 ## Tests
