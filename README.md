@@ -9,6 +9,11 @@ No installation is neecessary in order to run this application.
 ## Usage
 Upon the page loading, the user is presented with schedule time-blocks with each's corresponding time located to the left.  The user is then able to enter text in each time-block and save it to their machine's local storage by clicking the save button located to the right by an old-school floppy disk icon.  If the desired time-block is in the future, it is presented as orange.  If it has already passed, it is presented as red.  If the desored time-block is happening currently, it is pressented as green.
 
+## Live Link
+
+## Screenshot
+
+
 ## Tests
 There are currently no tests written for this application.
 
