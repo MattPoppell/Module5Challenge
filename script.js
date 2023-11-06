@@ -9,14 +9,14 @@ function displayDate() {
   let date = dayjs().format('dddd, MMMM DD, YYYY');
   currentDate.text(date);
 };
-  const now = dayjs().format('HH');
+  const now = parseInt(dayjs().format('HH'));
 
 
 
   function plannerStateChange() {
     $(".time-block").each(function () {
       let time = parseInt($(this).attr("id").split("hour")[1] * -1);
-    console.log("test ");
+    console.log("test ", typeof time,typeof now);
       if (time < now) {
         $(this).removeClass("future");
         $(this).removeClass("present");
