@@ -3,6 +3,9 @@ let saveButton = $(".save-icon");
 let containerEl = $(".container");
 console.log("test123")
 
+
+//This sets the date and time at the top//
+
 const currentDate = $('#currentDate');
 
 function displayDate() {
@@ -12,7 +15,7 @@ function displayDate() {
   const now = parseInt(dayjs().format('HH'));
 
 
-
+//This is what changes the color of hte time blocks//
   function plannerStateChange() {
     $(".time-block").each(function () {
       let time = parseInt($(this).attr("id").split("hour")[1] * -1);
@@ -37,6 +40,8 @@ function displayDate() {
     });
   };
 
+
+  //This is the click handler and the local storage saving and retrieving//
 $(function () {
     $(".saveBtn").on("click", function () {
       var hourText = $(this).siblings(".description").val();
